@@ -9,7 +9,6 @@ A full-stack Airbnb clone web application inspired by the original Airbnb platfo
 - 🏠 List and view rental properties
 - 📷 Image upload and carousel display for listings
 - 📍 Location-based search/filter
-- 💬 Property details with amenities
 - 🌙 Responsive UI for mobile and desktop
 
 ## 🛠️ Tech Stack
