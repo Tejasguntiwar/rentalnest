@@ -34,7 +34,8 @@ app.use(express.static(path.join(__dirname, "/public")));
 
 
 // const MONGO_URL = "mongodb://127.0.0.1:27017/wanderlust";
-const dbUrl = process.env.ATLASDB_URL;      //online mongo DB URL
+// const dbUrl = process.env.ATLASDB_URL;      //online mongo DB URL
+const dbUrl = process.env.ATLASDB_URL || "mongodb://127.0.0.1:27017/wanderlust";
 
 
 const store = MongoStore.create({
@@ -73,7 +74,11 @@ main()
 });
 
 async function main() {
-  await mongoose.connect(dbUrl);
+  await mongoose.connect(dbUrl, {
+    useNewUrlParser: true,
+    useUnifiedTopology: true
+});
+
 }
 
 // app.get("/", (req, res) => {

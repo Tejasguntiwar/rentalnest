@@ -12,3 +12,4 @@ router.post("/", isLoggedIn, validateReview, wrapAsync(reviewController.createRe
 router.delete("/:reviewId", isLoggedIn, isReviewAuthor, wrapAsync(reviewController.deleteReview));
 
 module.exports = router;
+
