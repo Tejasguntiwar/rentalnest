@@ -1,26 +1,37 @@
-This project is basically clone of airbnb website.
+# 🌐 Rental Listing Web Application
 
-# 🌐 Airbnb Website Clone
+A full-stack web platform designed to simulate a real-world accommodation listing experience. Users can create accounts, list rental properties with images, explore available stays, and interact with listings — all through a responsive and user-friendly interface.
 
-A full-stack Airbnb clone web application inspired by the original Airbnb platform. This project is built to simulate a real-world accommodation booking experience, with features like property listings, image uploads.
+---
 
 ## 🚀 Features
 
-- 🏠 List and view rental properties
-- 📷 Image upload and carousel display for listings
-- 📍 Location-based search/filter
-- 🌙 Responsive UI for mobile and desktop
+🏠 Create and view rental property listings  
+📷 Upload images with static display for each listing  
+📍 Search/filter listings by location (manually entered)  
+🌙 Fully responsive design for both mobile and desktop views  
+
+---
 
 ## 🛠️ Tech Stack
 
 ### Frontend:
-- HTML5, CSS3, JavaScript
-- EJS Templating Engine 
-- Bootstrap 
+- HTML, CSS, JavaScript  
+- EJS Templating Engine  
+- Bootstrap  
 
 ### Backend:
-- Node.js
-- Express.js
+- Node.js  
+- Express.js  
 
 ### Database:
-- MongoDB (with Mongoose ORM)
+- MongoDB (using Mongoose)  
+
+---
+
+## 📌 Notes
+- This platform does **not include booking functionality**.
+- Users can **create listings**, **upload images**, and **explore available properties** with ease.
+- Designed to reflect real-world rental applications with a focus on clean UI and efficient backend design.
+
+---
